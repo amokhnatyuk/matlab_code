@@ -1,0 +1,17 @@
+#[section]
+# var=a
+[files]
+gmcimg_fn = C:\data\apsc\macbeth\3.tif
+darkimg_fn = C:\data\apsc\macbeth\dark3.tif
+configini_fn = config1.ini
+
+[main]
+gamma = 0.42
+colorselect  = 2
+colorchoices = sRGB_Values,RGB_Adobe
+grayweights = 0.8,1.2,1,0.8,0.6,0.2
+colorweights = 1,1.5,1,1,1,1, 1,1,1,1,1,1, 1,1,1,1,1,1
+
+[outvalues]
+ccm = 
+wb  = 
